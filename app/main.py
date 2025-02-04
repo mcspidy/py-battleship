@@ -43,6 +43,7 @@ class Deck:
 
 
 class Ship:
+    # Create decks and save them to a list `self.decks`
     def __init__(self, start: tuple, end: tuple,
                  is_drowned: bool = False) -> None:
         self.decks = self.build_decks(start, end)
